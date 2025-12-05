@@ -1,16 +1,27 @@
-# responsive_dash_board
+# Responsive Admin Dashboard – Flutter Web  
+Modern, Responsive Admin Dashboard UI built with Flutter
 
-A new Flutter project.
+This project is a **responsive admin dashboard UI** built using **Flutter**, inspired by modern web dashboards and designed based on a Figma community design.
 
-## Getting Started
+It demonstrates:
+- Clean and scalable folder structure
+- Responsive layout for large screens, tablets, and smaller widths
+- Reusable widgets and components
+- Dashboard-style layout suitable for SaaS / Analytics / Admin systems
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎨 UI Design (Figma)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This Flutter dashboard is based on the following Figma design:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+👉 **Figma Design:**  
+https://www.figma.com/design/MaVFj6GIkC4oUYj6DYx4E8/Admin-Dashboard--Community-?node-id=0-1&p=f
+
+> You can explore the original design, view all components, and inspect spacing, colors, and typography.
+
+If you export a screenshot from Figma, place it in a folder named `design/` in the root of the project:
+
+```text
+design/
+  admin-dashboard-figma.png
