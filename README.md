@@ -1,27 +1,32 @@
-# Responsive Admin Dashboard – Flutter Web  
-Modern, Responsive Admin Dashboard UI built with Flutter
+# Responsive Flutter Dashboard
 
-This project is a **responsive admin dashboard UI** built using **Flutter**, inspired by modern web dashboards and designed based on a Figma community design.
+A Flutter dashboard interface focused on layouts for desktop and tablet screen sizes. The repository includes reusable UI components and custom font assets.
 
-It demonstrates:
-- Clean and scalable folder structure
-- Responsive layout for large screens, tablets, and smaller widths
-- Reusable widgets and components
-- Dashboard-style layout suitable for SaaS / Analytics / Admin systems
+## Requirements
 
----
+- Flutter with Dart 3.2.3 or newer.
+- The Montserrat font files configured by the project under `assets/fonts/`.
 
-## 🎨 UI Design (Figma)
+## Run locally
 
-This Flutter dashboard is based on the following Figma design:
+```sh
+flutter pub get
+flutter run -d chrome
+```
 
-👉 **Figma Design:**  
-https://www.figma.com/design/MaVFj6GIkC4oUYj6DYx4E8/Admin-Dashboard--Community-?node-id=0-1&p=f
+Use `flutter devices` to select another supported device. Check the project with:
 
-> You can explore the original design, view all components, and inspect spacing, colors, and typography.
+```sh
+flutter analyze
+flutter test
+```
 
-If you export a screenshot from Figma, place it in a folder named `design/` in the root of the project:
+The current widget test is a generated counter example rather than a dashboard test. Treat it as placeholder coverage and replace it with widget tests for the responsive dashboard before relying on CI test results. Flutter SDK was unavailable in the audit environment, so a build and analyzer run have not been verified here.
 
-```text
-design/
-  admin-dashboard-figma.png
+## Design reference
+
+The project README originally referenced this community Figma file: [Admin Dashboard design](https://www.figma.com/design/MaVFj6GIkC4oUYj6DYx4E8/Admin-Dashboard--Community-?node-id=0-1&p=f). Confirm that the reference and included implementation still match before presenting it as a current design spec.
+
+## Scope
+
+This repository demonstrates a dashboard UI. It does not document a connected production API, authentication flow, or deployed service. Do not describe those capabilities as implemented without verifying them in the source and a running build.
